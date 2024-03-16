@@ -1,9 +1,7 @@
 "use client"
 import React , {useState , useTransition} from 'react'
 import Link from 'next/link' 
-// بتاخد بينات ال لtab في الشريط الجانبى 
 import SideBarTab from './SideBarTab';
-// بجيب منة بينات اللي في الجانب
 import SideBaTabData from './SideBaTabData';
 import ViewData from './ViewData';
 function SideBar() {
