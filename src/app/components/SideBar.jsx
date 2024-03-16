@@ -17,7 +17,7 @@ function SideBar() {
     })
   }
   return (
-    <section className="bg-white text-black pb-5 md:pb-0">
+    <section className="bg-white h-auto text-black pb-5 md:pb-0">
       {
         !openMenu ? (
           <button onClick={() => setOpenMenu(true)} className="fixed top-[50px] left-0 right-0 py-4 bg-mainColor md:hidden text-lg font-semibold text-white w-full">
