@@ -61,7 +61,7 @@ function SideBar() {
             </aside>
           )
         }
-        <section className="md:col-span-5 w-full container p-4 pt-6 mt-[110px]  h-screen">
+        <section className="md:col-span-5 w-full container p-4 pt-6 mt-[110px]  md:h-screen">
           <h2 className='text-center text-4xl shadow-lg  py-4'>
             {ViewData.find((e) => e.id === sideButton).title}
           </h2>
