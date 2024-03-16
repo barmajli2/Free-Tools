@@ -1,10 +1,8 @@
-// Tajawal
 
 import Image from 'next/image'
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from './components/NavBar';
-import Linketer from './components/Linketer';
 
 
 
@@ -22,7 +20,6 @@ export default function RootLayout({ children }) {
     <html lang="ar" dir="rtl">
       <body className={inter.className}>
         <Navbar/>
-        <Linketer/>
         {children}
         </body>
     </html>
