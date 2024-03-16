@@ -6,7 +6,7 @@ import Image from  'next/image'
         <section className="fixed left-0 ml-4 top-[45%]">
             <Link href="https://github.com/barmajli2" className='my-2' target='_blank'>
                 <Image
-                className="relative self-center  mb-2 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                className="  mb-2 "
                 src='/github.png'
                 alt="github"
                 width={45}
@@ -16,7 +16,7 @@ import Image from  'next/image'
               </Link>
             <Link href="https://www.linkedin.com/in/barmajly2/" className='my-2' target='_blank'>
                 <Image
-                className="relative self-center  mb-2 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                className="  mb-2 "
                 src='/linkedin.png'
                 alt="linkedin"
                 width={45}
