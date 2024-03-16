@@ -13,7 +13,7 @@ function Navbar() {
         },
     ]
 return (
-    <header className='bg-bgColor'>
+    <header className=' bg-bgColor fixed top-0 left-0 right-0 md:block z-50'>
         <nav className='flex justify-between items-center container mx-auto'>
             <Link href="/">
                 <Image
