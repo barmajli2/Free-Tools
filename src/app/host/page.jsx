@@ -37,7 +37,7 @@ function page() {
   return (
     <section className="container mx-auto mt-16">
       <h1 className='text-center py-3 mb-3 text-3xl '>الاستضافة</h1>
-      <div className='grid grid-cols-4 gap-4 w-[80%] mx-auto  text-center '>
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-4 w-[80%] mx-auto  text-center '>
       {
         HostData.map((item,key)=>(
           <div key={key} className=' p-4 flex justify-between flex-col   shadow-xl hover:shadow-teal-400 cursor-progress' >
