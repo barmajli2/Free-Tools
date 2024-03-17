@@ -15,7 +15,7 @@ function page() {
     },
     {
       title:`Git Hub`,
-      link :` https://vercel.com/ `,
+      link :` https://github.com/ `,
       img:`/github.png`,
       alt:`github logo`,
     },
@@ -27,7 +27,7 @@ function page() {
     },
     {
       title:`Tiiny`,
-      link :` https://vercel.com/ `,
+      link :` https://tiiny.host/manage `,
       img:`/tiiny.png`,
       alt:`Tiiny logo`,
     },
@@ -36,7 +36,7 @@ function page() {
   ]
   return (
     <section className="container mx-auto mt-16">
-      <h1 className='text-center py-3 mb-3 text-3xl '>الاستضافة</h1>
+      <h1 className='text-center py-3 mb-3 text-3xl '> الاستضافات المجانية  </h1>
       <div className='grid grid-cols-1 md:grid-cols-4 gap-4 w-[80%] mx-auto  text-center '>
       {
         HostData.map((item,key)=>(
