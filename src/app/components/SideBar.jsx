@@ -82,7 +82,7 @@ function SideBar() {
               {
                 ViewData.find((e) => e.id === sideButton).data_json.map((o, key) => (
                   <Link key={key}
-                    href=`/${o.path}`
+                    href={o.path}
                     target='_blank'
                     className='inline-block rounded text-center bg-mainColor px-8  py-3 mx-2 my-3 text-md font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-mainColor'>
                     {o.title}
