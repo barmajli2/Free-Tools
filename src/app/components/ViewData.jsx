@@ -122,11 +122,11 @@ const ViewData=[
        },
         {
          title:" جميع المقالات حول تسلا  ",
-         path:"https://newsapi.org/v2/everything?q=tesla&from=2024-02-15&sortBy=publishedAt&apiKey=d882f947d8c24d08b10c8c38268fd034"
+         path:"https://newsapi.org/v2/everything?q=tesla&from=2024-02-17&sortBy=publishedAt&apiKey=d882f947d8c24d08b10c8c38268fd034"
        },
         {
          title:"  جميع المقالات التي تشير إلى شركة Apple  ",
-         path:"https://newsapi.org/v2/everything?q=apple&from=2024-03-14&to=2024-03-14&sortBy=popularity&apiKey=d882f947d8c24d08b10c8c38268fd034"
+         path:"https://newsapi.org/v2/everything?q=apple&from=2024-03-16&to=2024-03-16&sortBy=popularity&apiKey=d882f947d8c24d08b10c8c38268fd034"
        },
      
        ]
