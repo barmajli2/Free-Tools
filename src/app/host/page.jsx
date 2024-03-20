@@ -35,7 +35,7 @@ function page() {
 
   ]
   return (
-    <section className="container mx-auto mt-16 bg-white">
+    <section className="container mx-auto mt-16 ">
       <h1 className='text-center py-3 mb-3 text-3xl '> الاستضافات المجانية  </h1>
       <div className='grid grid-cols-1 md:grid-cols-4 gap-4 w-[80%] mx-auto  text-center '>
       {
